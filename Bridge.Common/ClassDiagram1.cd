@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bridge.Common.Abstraction.Shape">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstraction\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.Common.ConcreteImplementor.BluePainter" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ConcreteImplementor\BluePainter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bridge.Common.ConcreteImplementor.RedPainter" BaseTypeListCollapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ConcreteImplementor\RedPainter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bridge.Common.RefinedAbstraction.Circle">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RefinedAbstraction\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.Common.RefinedAbstraction.Rect">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Bridge.Common.Abstraction.Shape" FixedFromPoint="true">
+      <Path>
+        <Point X="2.5" Y="2.247" />
+        <Point X="2.5" Y="2.375" />
+        <Point X="3.75" Y="2.375" />
+        <Point X="3.75" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RefinedAbstraction\Rect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Bridge.Common.AbstractImplementor.IPainter">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>AbstractImplementor\IPainter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
