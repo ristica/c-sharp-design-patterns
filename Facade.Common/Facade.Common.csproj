@@ -40,11 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Facade\CarFacade.cs" />
-    <Compile Include="Packages\CarTransmition.cs" />
-    <Compile Include="Packages\CarModel.cs" />
-    <Compile Include="Packages\CarType.cs" />
-    <Compile Include="Packages\CarCubicCapacitiy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Packages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
