@@ -19,10 +19,10 @@ namespace Facade.Common.Facade
 
         public void CreateAudi()
         {
-            this._type.SetCarType();
-            this._model.SetCarModel();
-            this._cubicCapacity.SetCubicCapacity();
-            this._transmition.SetCarTransmition();
+            this._type.SetCarType("A8");
+            this._model.SetCarModel("4D2 Quattro");
+            this._cubicCapacity.SetCubicCapacity("4.200 cm³");
+            this._transmition.SetCarTransmition("automatic");
         }
     }
 }
