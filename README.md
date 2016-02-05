@@ -1,4 +1,4 @@
-# c-sharp-design-patterns
+# C# Design Patterns
 
 small and easy to understand projects for each design pattern (due to GOF book) in c#.
 
