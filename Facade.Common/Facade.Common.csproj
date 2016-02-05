@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Facade\CarFacade.cs" />
+    <Compile Include="Packages\CarCubicCapacitiy.cs" />
+    <Compile Include="Packages\CarModel.cs" />
+    <Compile Include="Packages\CarTransmition.cs" />
+    <Compile Include="Packages\CarType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
